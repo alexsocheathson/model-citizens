@@ -1,14 +1,24 @@
 import React, { Component } from 'react'
-// import { Link } from 'gatsby'
 
-// import Layout from '../components/layout'
-// import Image from '../components/image'
+import { Landing } from '../sections/landing'
+import { Listing } from '../sections/listing'
+import { Caption } from '../sections/caption'
+import { Mega } from '../sections/mega'
+import { Detail } from '../sections/detail'
 
-class IndexPage extends Component{
-  render(){
+import '../styles.css'
+import '../sass/vendor/animate.min.css'
+
+class IndexPage extends Component {
+  render() {
     return(
       <div>
-        <p>What up</p>
+       <Landing />
+       <Listing />
+       <Caption />
+       <Mega />
+       <Detail/>
+       <Listing />
       </div>
     )
   }

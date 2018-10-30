@@ -1,0 +1,50 @@
+.landing {
+    background-color: $custom-dark-blue;
+    color: $white;
+    height: 100vh;
+
+    .headers {
+        font-family: 'Work Sans';
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 70px;
+        text-align: left;
+
+        .header-right{
+            text-align: right;
+        }
+    }
+
+    .title {
+        font-family: 'Work Sans';
+        font-size: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 210px;
+    }
+
+    .project-members {
+        border-top: 5px solid $custom-light-grey;
+        color: $custom-light-blue;
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 25px;
+        padding-top: 25px;
+    }
+
+    .arrow {
+        margin: auto;
+        margin-top: 200px;
+
+    }
+    
+}
+
+.blink {
+    animation: blinker 3s linear infinite;
+  }
+  @keyframes blinker {
+    50% { opacity: 0; }
+  }
+  

@@ -1,0 +1,17 @@
+.listing {
+    height: 100vh;
+
+    .heading {
+        border-bottom: 5px solid $custom-light-blue;
+        color: $custom-dark-blue;
+        font-size: 45px;
+        font-weight: bold;
+        margin: 140px 100px 120px 100px;
+        text-align: center;
+    }
+
+    .bullets {
+        color: $custom-light-grey;
+        font-size: 30px;
+    }
+}

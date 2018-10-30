@@ -65,6 +65,13 @@
 // 1. Global
 // ---------
 
+// Custom
+// ---------
+$custom-dark-blue: #25274d;
+$custom-light-blue: #2e9cca;
+$custom-light-grey: #aaabb8;
+
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -79,10 +86,10 @@ $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #ffffff;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Lato', normal;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
