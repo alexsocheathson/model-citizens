@@ -5,4 +5,10 @@
 @include foundation-everything;
 
 @import 'sections/landing';
-@import 'sections/listing'
+@import 'sections/listing';
+@import 'sections/caption';
+@import 'sections/mega';
+@import 'sections/detail';
+
+@import 'components/banner';
+@import 'components/blocktext'

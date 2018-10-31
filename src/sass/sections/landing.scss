@@ -47,4 +47,13 @@
   @keyframes blinker {
     50% { opacity: 0; }
   }
+
+  .text {
+    color: $custom-light-grey;
+    font-size: 30px;
+  }
+
+  img {
+      height: 550px;
+    }
   

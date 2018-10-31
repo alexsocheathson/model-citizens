@@ -1,0 +1,17 @@
+.block-text{
+    background-color: $custom-light-grey;
+    border: 30px solid $white;
+    color: $white;
+    text-align: center; 
+    width: 720px;
+
+    .block-title {
+        font-size:20px;
+        font-weight: bold;
+        margin: 50px 80px 0px 50px;
+    }
+    
+    .block-sub {
+        margin: 45px;
+    }
+}

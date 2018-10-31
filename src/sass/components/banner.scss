@@ -1,0 +1,12 @@
+.banner {
+    background-color: $custom-light-grey; 
+    color: $white;
+    height: 160px;
+    
+    .banner-text {
+        font-family: 'Work Sans';
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}

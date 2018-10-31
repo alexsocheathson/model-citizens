@@ -5681,6 +5681,13 @@ html.is-reveal-open {
   50% {
     opacity: 0; } }
 
+.text {
+  color: #aaabb8;
+  font-size: 30px; }
+
+img {
+  height: 550px; }
+
 .listing {
   height: 100vh; }
   .listing .heading {
@@ -5688,8 +5695,66 @@ html.is-reveal-open {
     color: #25274d;
     font-size: 45px;
     font-weight: bold;
-    margin: 140px 100px 120px 100px;
+    margin: 140px 0px 120px 0px;
     text-align: center; }
   .listing .bullets {
     color: #aaabb8;
     font-size: 30px; }
+
+.caption {
+  height: 100vh; }
+  .caption .heading {
+    border-bottom: 5px solid #2e9cca;
+    color: #25274d;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    text-align: center; }
+
+.mega .heading {
+  border-bottom: 5px solid #2e9cca;
+  color: #25274d;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0px 30px 0px;
+  text-align: center; }
+
+.mega .text {
+  color: #aaabb8;
+  font-size: 30px;
+  margin: 40px; }
+
+.detail .heading {
+  border-bottom: 5px solid #2e9cca;
+  color: #25274d;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0px 30px 0px;
+  text-align: center; }
+
+.detail .bullets {
+  color: #aaabb8;
+  font-size: 30px; }
+
+.banner {
+  background-color: #aaabb8;
+  color: #ffffff;
+  height: 160px; }
+  .banner .banner-text {
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px; }
+
+.block-text {
+  background-color: #aaabb8;
+  border: 30px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  width: 720px; }
+  .block-text .block-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 80px 0px 50px; }
+  .block-text .block-sub {
+    margin: 45px; }
