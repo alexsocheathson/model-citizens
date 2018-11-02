@@ -6,22 +6,33 @@
     .headers {
         color: $custom-text-color;
         font-family: 'Work Sans';
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bold;
-        margin-top: 70px;
+        margin-top: 40px;
         text-align: left;
+        padding: 0 30px;
 
         .header-right{
             text-align: right;
+        }
+
+        @include breakpoint(large){
+            font-size: 40px;
+            margin-top: 70px;
         }
     }
 
     .title {
         font-family: 'Work Sans';
-        font-size: 100px;
+        font-size: 50px;
         font-weight: bold;
         text-align: center;
-        margin-top: 210px;
+        margin-top: 360px;
+
+        @include breakpoint(large){
+            font-size: 100px;
+            margin-top: 210px;
+        }
     }
 
     .project-members {
@@ -29,32 +40,36 @@
         color: $custom-light-blue;
         text-align: center;
         font-weight: bold;
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 25px;
         padding-top: 25px;
+
+        @include breakpoint(large){
+            font-size: 35px;
+            margin: 25px 0px 0px 0px ;
+            padding: 25px 0px 0px 0px ;
+        }
     }
 
     .arrow {
         margin: auto;
-        margin-top: 200px;
+        margin-top: 300px;
+
+        @include breakpoint(large){
+            margin-top: 200px;
+        }
 
     }
     
 }
 
-.blink {
-    animation: blinker 3s linear infinite;
-  }
-  @keyframes blinker {
-    50% { opacity: 0; }
-  }
-
   .text {
-    color: $custom-light-grey;
+    color: $custom-text-color;
     font-size: 30px;
   }
 
-  img {
-      height: 550px;
-    }
+//   iframe {
+//       width: 50%;
+//       height: 50%;
+//     }
   

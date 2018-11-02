@@ -5,6 +5,7 @@ import { Listing } from '../sections/listing'
 import { Caption } from '../sections/caption'
 import { Mega } from '../sections/mega'
 import { Detail } from '../sections/detail'
+// import { Footer } from '../sections/footer'
 
 import AOS from 'aos';
 
@@ -29,6 +30,7 @@ class IndexPage extends Component {
        <Mega />
        <Detail/>
        <Listing />
+       {/* <Footer /> */}
       </div>
     )
   }

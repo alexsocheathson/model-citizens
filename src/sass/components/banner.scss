@@ -9,5 +9,10 @@
         font-size: 40px;
         font-weight: bold;
         margin-top: 50px;
+        margin-left: 40px;
+
+        @include breakpoint(large){
+            margin-left: 0px;
+        }
     }
 }
