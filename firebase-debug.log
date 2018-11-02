@@ -1,0 +1,211 @@
+[debug] [2018-10-31T21:25:54.353Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T21:25:54.357Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T21:25:54.357Z] CLI Version:   6.0.0
+[debug] [2018-10-31T21:25:54.357Z] Platform:      darwin
+[debug] [2018-10-31T21:25:54.357Z] Node Version:  v10.1.0
+[debug] [2018-10-31T21:25:54.358Z] Time:          Wed Oct 31 2018 16:25:54 GMT-0500 (CDT)
+[debug] [2018-10-31T21:25:54.358Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T21:25:54.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T21:25:54.376Z] > authorizing via signed-in user
+[debug] [2018-10-31T21:25:54.376Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T21:25:54.379Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T21:25:54.693Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T21:25:54.695Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T21:25:54.783Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T21:26:13.504Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T21:26:13.506Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T21:26:13.507Z] CLI Version:   6.0.0
+[debug] [2018-10-31T21:26:13.507Z] Platform:      darwin
+[debug] [2018-10-31T21:26:13.507Z] Node Version:  v10.1.0
+[debug] [2018-10-31T21:26:13.508Z] Time:          Wed Oct 31 2018 16:26:13 GMT-0500 (CDT)
+[debug] [2018-10-31T21:26:13.508Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T21:26:13.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T21:26:13.527Z] > authorizing via signed-in user
+[debug] [2018-10-31T21:26:13.527Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T21:26:13.530Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T21:26:13.849Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T21:26:13.850Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T21:26:13.938Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T21:26:56.229Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T21:26:56.231Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T21:26:56.231Z] CLI Version:   6.0.0
+[debug] [2018-10-31T21:26:56.231Z] Platform:      darwin
+[debug] [2018-10-31T21:26:56.231Z] Node Version:  v10.1.0
+[debug] [2018-10-31T21:26:56.232Z] Time:          Wed Oct 31 2018 16:26:56 GMT-0500 (CDT)
+[debug] [2018-10-31T21:26:56.232Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T21:26:56.244Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T21:26:56.245Z] > authorizing via signed-in user
+[debug] [2018-10-31T21:26:56.245Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T21:26:56.247Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T21:26:56.558Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T21:26:56.559Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T21:26:56.638Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:04:59.350Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:04:59.353Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:04:59.353Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:04:59.353Z] Platform:      darwin
+[debug] [2018-10-31T22:04:59.353Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:04:59.354Z] Time:          Wed Oct 31 2018 17:04:59 GMT-0500 (CDT)
+[debug] [2018-10-31T22:04:59.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:04:59.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:04:59.369Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:04:59.369Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:04:59.371Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-31T22:04:59.371Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-31T22:04:59.589Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:04:59.610Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:04:59.959Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:04:59.961Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:05:00.039Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:07:06.870Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:07:06.872Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:07:06.875Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:07:06.876Z] Platform:      darwin
+[debug] [2018-10-31T22:07:06.876Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:07:06.876Z] Time:          Wed Oct 31 2018 17:07:06 GMT-0500 (CDT)
+[debug] [2018-10-31T22:07:06.876Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:07:06.890Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:07:06.890Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:07:06.890Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:07:06.892Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:07:07.296Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:07:07.298Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:07:07.390Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:07:50.307Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:07:50.310Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:07:50.311Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:07:50.311Z] Platform:      darwin
+[debug] [2018-10-31T22:07:50.311Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:07:50.311Z] Time:          Wed Oct 31 2018 17:07:50 GMT-0500 (CDT)
+[debug] [2018-10-31T22:07:50.312Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:07:50.329Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:07:50.330Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:07:50.330Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:07:50.333Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:07:50.643Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:07:50.645Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:07:50.719Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:21:30.173Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:21:30.175Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:21:30.175Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:21:30.175Z] Platform:      darwin
+[debug] [2018-10-31T22:21:30.175Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:21:30.176Z] Time:          Wed Oct 31 2018 17:21:30 GMT-0500 (CDT)
+[debug] [2018-10-31T22:21:30.176Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:21:30.192Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:21:30.193Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:21:30.193Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:21:30.194Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:21:30.692Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:21:30.693Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:21:30.856Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:26:54.811Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:26:54.813Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:26:54.813Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:26:54.813Z] Platform:      darwin
+[debug] [2018-10-31T22:26:54.813Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:26:54.814Z] Time:          Wed Oct 31 2018 17:26:54 GMT-0500 (CDT)
+[debug] [2018-10-31T22:26:54.814Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:26:54.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:26:54.830Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:26:54.830Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:26:54.832Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:26:55.302Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:26:55.304Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:26:55.472Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T22:37:54.059Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T22:37:54.061Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-31T22:37:54.062Z] CLI Version:   6.0.0
+[debug] [2018-10-31T22:37:54.062Z] Platform:      darwin
+[debug] [2018-10-31T22:37:54.062Z] Node Version:  v10.1.0
+[debug] [2018-10-31T22:37:54.062Z] Time:          Wed Oct 31 2018 17:37:54 GMT-0500 (CDT)
+[debug] [2018-10-31T22:37:54.062Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T22:37:54.077Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T22:37:54.078Z] > authorizing via signed-in user
+[debug] [2018-10-31T22:37:54.078Z] [iam] checking project model-citizens for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-31T22:37:54.080Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/model-citizens:testIamPermissions  
+
+[debug] [2018-10-31T22:37:54.513Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T22:37:54.515Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/model-citizens  
+ 
+[debug] [2018-10-31T22:37:54.677Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1055:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:635:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate

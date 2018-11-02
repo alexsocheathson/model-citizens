@@ -1,9 +1,10 @@
 .landing {
     background-color: $custom-dark-blue;
-    color: $white;
+    color: $custom-text-color;
     height: 100vh;
 
     .headers {
+        color: $custom-text-color;
         font-family: 'Work Sans';
         font-size: 40px;
         font-weight: bold;

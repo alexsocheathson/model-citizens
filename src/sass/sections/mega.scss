@@ -3,7 +3,7 @@
 
     .heading {
         border-bottom: 5px solid $custom-light-blue;
-        color: $custom-dark-blue;
+        color: $custom-text-color;
         font-size: 40px;
         font-weight: bold;
         margin: 30px 0px 30px 0px;
@@ -11,7 +11,7 @@
     }
 
     .text {
-        color: $custom-light-grey;
+        color: $custom-text-color;
         font-size: 30px;
         margin: 40px;
     }

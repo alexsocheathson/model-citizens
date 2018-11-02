@@ -1,9 +1,10 @@
 .banner {
-    background-color: $custom-light-grey; 
+    background-color: $custom-dark-blue; 
     color: $white;
     height: 160px;
     
     .banner-text {
+        color: $custom-text-color;
         font-family: 'Work Sans';
         font-size: 40px;
         font-weight: bold;

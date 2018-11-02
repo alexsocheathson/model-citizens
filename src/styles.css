@@ -5640,10 +5640,11 @@ html.is-reveal-open {
       display: block !important; } }
 
 .landing {
-  background-color: #25274d;
-  color: #ffffff;
+  background-color: #EAE7DC;
+  color: #8e8D8A;
   height: 100vh; }
   .landing .headers {
+    color: #8e8D8A;
     font-family: 'Work Sans';
     font-size: 40px;
     font-weight: bold;
@@ -5658,8 +5659,8 @@ html.is-reveal-open {
     text-align: center;
     margin-top: 210px; }
   .landing .project-members {
-    border-top: 5px solid #aaabb8;
-    color: #2e9cca;
+    border-top: 5px solid #D8C3A5;
+    color: #E85A4F;
     text-align: center;
     font-weight: bold;
     font-size: 35px;
@@ -5682,7 +5683,7 @@ html.is-reveal-open {
     opacity: 0; } }
 
 .text {
-  color: #aaabb8;
+  color: #D8C3A5;
   font-size: 30px; }
 
 img {
@@ -5691,65 +5692,68 @@ img {
 .listing {
   height: 100vh; }
   .listing .heading {
-    border-bottom: 5px solid #2e9cca;
-    color: #25274d;
+    border-bottom: 5px solid #E85A4F;
+    color: #8e8D8A;
     font-size: 45px;
     font-weight: bold;
     margin: 140px 0px 120px 0px;
     text-align: center; }
   .listing .bullets {
-    color: #aaabb8;
+    color: #8e8D8A;
     font-size: 30px; }
 
 .caption {
   height: 100vh; }
   .caption .heading {
-    border-bottom: 5px solid #2e9cca;
-    color: #25274d;
+    border-bottom: 5px solid #E85A4F;
+    color: #8e8D8A;
     font-size: 40px;
     font-weight: bold;
     margin: 30px 0px 30px 0px;
     text-align: center; }
+  .caption .text {
+    color: #8e8D8A; }
 
 .mega .heading {
-  border-bottom: 5px solid #2e9cca;
-  color: #25274d;
+  border-bottom: 5px solid #E85A4F;
+  color: #8e8D8A;
   font-size: 40px;
   font-weight: bold;
   margin: 30px 0px 30px 0px;
   text-align: center; }
 
 .mega .text {
-  color: #aaabb8;
+  color: #8e8D8A;
   font-size: 30px;
   margin: 40px; }
 
 .detail .heading {
-  border-bottom: 5px solid #2e9cca;
-  color: #25274d;
+  border-bottom: 5px solid #E85A4F;
+  color: #8e8D8A;
   font-size: 40px;
   font-weight: bold;
   margin: 30px 0px 30px 0px;
   text-align: center; }
 
 .detail .bullets {
-  color: #aaabb8;
+  color: #8e8D8A;
   font-size: 30px; }
 
 .banner {
-  background-color: #aaabb8;
+  background-color: #EAE7DC;
   color: #ffffff;
   height: 160px; }
   .banner .banner-text {
+    color: #8e8D8A;
     font-family: 'Work Sans';
     font-size: 40px;
     font-weight: bold;
     margin-top: 50px; }
 
 .block-text {
-  background-color: #aaabb8;
+  background-color: #EAE7DC;
+  color: #8e8D8A;
   border: 30px solid #ffffff;
-  color: #ffffff;
   text-align: center;
   width: 720px; }
   .block-text .block-title {
