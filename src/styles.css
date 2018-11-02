@@ -5682,7 +5682,7 @@ html.is-reveal-open {
         padding: 25px 0px 0px 0px; } }
   .landing .arrow {
     margin: auto;
-    margin-top: 300px; }
+    margin-top: 250px; }
     @media print, screen and (min-width: 64em) {
       .landing .arrow {
         margin-top: 200px; } }
