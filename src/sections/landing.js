@@ -7,8 +7,8 @@ export const Landing = () => (
   <div class="landing">
     <div class= "grid-container">
       <div class= "grid-x">
-        <p class= "cell small-6 headers">St. Olaf College</p>
-        <div class= "cell small-6 headers">
+        {/* <p class= "cell small-6 headers"></p> */}
+        <div class= "cell small-12 headers">
           <p class= "header-right">MinneMUDAC 2018</p>
         </div>
         <h1 class= "cell small-12 title blink">Model Citizens</h1>
