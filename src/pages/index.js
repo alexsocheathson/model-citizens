@@ -62,7 +62,7 @@ class IndexPage extends Component {
         bannerText = "Methods"
         heading = "Twitter API"
         bulletOne = "Used Twitter’s APIs to gather Tweets from the profiles of candidates from MN running for office during the 2012, 2014, 2016 and 2018 elections"
-        bulletTwo = "Collected metrics and utilized natural language processing and sentiment analysis on the Tweets’ content "
+        bulletTwo = "Collected metrics and utilized natural language processing and sentiment analysis on the Tweets’ content"
         />
         <Listing
           heading = "Random Forest"

@@ -4,6 +4,13 @@ import Banner from '../components/banner.js'
 
 export class Detail extends React.Component{
     render(){
+        let list3;
+        if(this.props.listingPointThree != null){
+            list3 = <li>{this.props.listingPointThree}</li>
+        }
+        else {
+            list3 = <div></div>
+        }
         return(
             <div class= "detail">
                 <Banner bannerText = {this.props.bannerText} />
@@ -17,7 +24,7 @@ export class Detail extends React.Component{
                         <ul class= "cell small-12 bullets">
                             <li>{this.props.bulletOne}</li>
                             <li>{this.props.bulletTwo}</li>
-                            <li>{this.props.bulletThree}</li>
+                            {list3}
                         </ul>
                     </div>
                 </div>
