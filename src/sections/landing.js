@@ -11,7 +11,7 @@ export const Landing = () => (
         <div class= "cell small-6 headers">
           <p class= "header-right">MinneMUDAC 2018</p>
         </div>
-        <h1 class= "cell small-12 title animated fadeInDown delay-1s">Model Citizens</h1>
+        <h1 class= "cell small-12 title blink">Model Citizens</h1>
         <p class= "cell small-12 project-members">Abe Eyman Casey, Alex Son, Brodie Thiede, Jack Welsh</p>
         <div class= "arrow animated infinite bounce slow delay-2s">
           <FontAwesomeIcon icon={faAngleDown} size="7x" />

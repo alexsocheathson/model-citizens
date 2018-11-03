@@ -5691,6 +5691,18 @@ html.is-reveal-open {
   color: #8e8D8A;
   font-size: 30px; }
 
+.blink {
+  -webkit-animation: blinker 5s linear infinite;
+          animation: blinker 5s linear infinite; }
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0; } }
+
+@keyframes blinker {
+  50% {
+    opacity: 0; } }
+
 .listing .heading {
   border-bottom: 5px solid #E85A4F;
   color: #8e8D8A;

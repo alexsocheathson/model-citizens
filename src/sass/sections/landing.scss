@@ -72,4 +72,11 @@
 //       width: 50%;
 //       height: 50%;
 //     }
+
+.blink {
+    animation: blinker 5s linear infinite;
+  }
+  @keyframes blinker {
+    50% { opacity: 0; }
+  }
   

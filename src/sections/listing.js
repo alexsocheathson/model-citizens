@@ -6,7 +6,7 @@ export class Listing extends React.Component{
         let list2;
         let list3;
 
-        if(this.props.listingPointThree != null){
+        if(this.props.listingPointOne != null){
             list1 = <li>{this.props.listingPointOne}</li>
         }
         else {
