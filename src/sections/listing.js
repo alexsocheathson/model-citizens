@@ -5,6 +5,8 @@ export class Listing extends React.Component{
         let list1
         let list2;
         let list3;
+        let list4;
+        let list5;
 
         if(this.props.listingPointOne != null){
             list1 = <li>{this.props.listingPointOne}</li>
@@ -26,6 +28,18 @@ export class Listing extends React.Component{
         else {
             list3 = <div></div>
         }
+        if(this.props.listingPointFour != null){
+            list4 = <li>{this.props.listingPointFour}</li>
+        }
+        else {
+            list4 = <div></div>
+        }
+        if(this.props.listingPointFive != null){
+            list5 = <li>{this.props.listingPointFive}</li>
+        }
+        else {
+            list5 = <div></div>
+        }
         return( 
         <div class= "listing">
             <div class= "grid-container">
@@ -35,6 +49,8 @@ export class Listing extends React.Component{
                         {list1}
                         {list2}
                         {list3}
+                        {list4}
+                        {list5}
                     </ul>
                 </div>
             </div>

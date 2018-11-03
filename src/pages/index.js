@@ -62,8 +62,7 @@ class IndexPage extends Component {
         bannerText = "Methods"
         heading = "Twitter API"
         bulletOne = "Used Twitter’s APIs to gather Tweets from the profiles of candidates from MN running for office during the 2012, 2014, 2016 and 2018 elections"
-        bulletTwo = "Collected the content of the Tweets, number of favorites and number of retweets in order to identify recurring topics and to gauge the public’s engagement with the candidate’s message"
-        bulletThree = "We utilized a Natural Language Processing package called TextBlob to gather parts of speech and perform sentiment analysis on the Tweets’ content The Twitter data was not a significant predictor for voter turnout, but we believe that it (on a larger scale) could be more relevant in predicting the outcome of the election"
+        bulletTwo = "Collected metrics and utilized natural language processing and sentiment analysis on the Tweets’ content "
         />
         <Listing
           heading = "Random Forest"
@@ -76,7 +75,9 @@ class IndexPage extends Component {
           heading = "Where we got our data from"
           listingPointOne = "American Fact Finder for all demographic data " 
           listingPointTwo = "Minnesota Department of State for historic voter turnout data"
-          listingPointThree = "Twitter API for all Twitter data. OpenSecrets.org for the candidate fundraising data. Minnesota State Demographic Center for the economic data"
+          listingPointThree = "Twitter API for all Twitter data."
+          listingPointFour = "OpenSecrets.org for the candidate fundraising data."
+          listingPointFive = "Minnesota State Demographic Center for the economic data"
         />
          <Listing
           heading = "Predictions"
