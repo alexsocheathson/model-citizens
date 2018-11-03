@@ -42,7 +42,8 @@ class IndexPage extends Component {
         <Banner bannerText= "Most Important Predictors" />
         <div class= "grid-container" style= {{padding: "0px 40px 0px 40px"}}>
           <div class= "grid-x">
-            <img class= "cell small-12" src='https://firebasestorage.googleapis.com/v0/b/model-citizens.appspot.com/o/Rplot01.png?alt=media&token=5ca12e6a-5c18-4e70-83bb-9badc8eeb023' alt = "plot"/>
+            <img class= "cell small-12" src='https://firebasestorage.googleapis.com/v0/b/model-citizens.appspot.com/o/mse.png?alt=media&token=4a29ef5c-2000-4930-bdcd-dbb32ea9d8ba' alt = "plot"/>
+            <img class= "cell small-12" src='https://firebasestorage.googleapis.com/v0/b/model-citizens.appspot.com/o/mse1.png?alt=media&token=c4838851-05ed-4960-a7fc-2170ac899149' alt = "plot"/>
             <div class= "cell small-6">
               <iframe width="350" height="500" frameborder="0" scrolling="no" src="//plot.ly/~welsh1/1.embed?link=false&logo=false"></iframe>
             </div>
