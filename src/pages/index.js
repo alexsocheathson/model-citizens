@@ -29,18 +29,18 @@ class IndexPage extends Component {
         <Landing />
         <Listing
           heading = "Predictions"
-          listingPointOne = "We predict 54.7% voter turnout for all of Minnesota"
+          listingPointOne = "We predict 2414187 votes or 54.7% voter turnout for all of Minnesota"
           listingPointTwo = {null}
           listingPointThree = {null}
         />
-        <div class= "grid-container" style= {{padding: "0px 40px 0px 40px"}}>
+        <div class= "grid-container" style= {{padding: "0px 60px 0px 60px"}}>
           <div class= "grid-x">
-            <iframe width="900" height="600" frameborder="0" scrolling="no" src="//plot.ly/~son3/33.embed"></iframe>
+            <iframe width="900" height="600" frameborder="0" scrolling="no" src="//plot.ly/~son3/33.embed?link=false&logo=false"></iframe>
             <iframe width="900" height="450" frameborder="0" scrolling="no" src="//plot.ly/~son3/35.embed?link=false&logo=false"></iframe>
           </div>
         </div>
         <Banner bannerText= "Most Important Predictors" />
-        <div class= "grid-container" style= {{padding: "0px 40px 0px 40px"}}>
+        <div class= "grid-container" style= {{padding: "0px 60px 0px 60px"}}>
           <div class= "grid-x">
             <img class= "cell small-12" src='https://firebasestorage.googleapis.com/v0/b/model-citizens.appspot.com/o/mse.png?alt=media&token=4a29ef5c-2000-4930-bdcd-dbb32ea9d8ba' alt = "plot"/>
             <img class= "cell small-12" src='https://firebasestorage.googleapis.com/v0/b/model-citizens.appspot.com/o/mse1.png?alt=media&token=c4838851-05ed-4960-a7fc-2170ac899149' alt = "plot"/>
