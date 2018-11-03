@@ -33,6 +33,12 @@ class IndexPage extends Component {
           listingPointTwo = {null}
           listingPointThree = {null}
         />
+        <div class= "grid-container" style= {{padding: "0px 40px 0px 40px"}}>
+          <div class= "grid-x">
+            <iframe width="900" height="600" frameborder="0" scrolling="no" src="//plot.ly/~son3/33.embed"></iframe>
+            <iframe width="900" height="450" frameborder="0" scrolling="no" src="//plot.ly/~son3/35.embed?link=false&logo=false"></iframe>
+          </div>
+        </div>
         <Banner bannerText= "Most Important Predictors" />
         <div class= "grid-container" style= {{padding: "0px 40px 0px 40px"}}>
           <div class= "grid-x">
